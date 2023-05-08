@@ -1,0 +1,220 @@
+.track-Btn {
+    border-radius: 0 !important;
+    text-transform: none !important;
+    padding: 0.5rem 2rem !important; 
+    font-size: 1.2rem !important;
+}
+
+// .see-update {
+//     text-decoration: underline !important;
+   
+// }
+
+.Track-Input {
+    border-radius: 0 !important;
+    padding: 0.8rem 2rem !important; 
+    
+}
+
+.manage-order-Btn {
+    border-radius: 0 !important ;
+    text-transform: none !important;
+
+}
+
+// .manage-order-Btn-mobile {
+//     border-radius: 0 !important ;
+//     text-transform: none !important;
+//     display: none !important;
+// }
+
+.Track-Input
+ {
+    &:active , &:hover {
+
+        border: 1px solid var(--red) !important;
+    }
+}
+
+// .css-1ami7lv-MuiTimelineConnector-root {
+//     position: relative;
+//     top: 11px;
+//     margin-top: -20px;
+// }
+
+// .second-connector {
+//     margin-top: 37px;
+// }
+// .timeline-dot {
+//     border-color: var(--red) !important;
+//     box-shadow: none !important;
+// }
+
+// .first-stepper {
+//     height: 10px;
+//     margin-top: 60px;
+// }
+
+// .order-desc , .order-time {
+//     margin-bottom: 0 !important;
+// }
+
+// .track-calender {
+//     position: relative;
+//     top:-35px;
+// }
+
+// .order-confirm-img {
+ 
+//     position: relative;
+//     top: -20px;
+// }
+
+// .order-processing-img {
+//     position: relative;
+//     top: -11px;
+// }
+
+// .order-delivered-img {
+//     position: relative;
+//     top: -14px;
+// }
+
+// .see-update-icon-li {
+//     min-height: 0 !important;
+// }
+
+// .double-circle-connector {
+//     margin-top: -49px !important;
+// }
+
+// .pre-double-circle-conn {
+//     margin-bottom: 42px !important;
+// }
+
+// .double-circle {
+//     position: relative  !important;
+//     top:-37px !important;
+// }
+
+
+// .bredcrumb{
+//     padding-left: 78px !important;
+// }
+// .main_content{
+//     padding-top: 70px;
+// }
+
+// .track-stepper {
+//     width: 70%;
+// }
+
+// .createOrderContainer {
+//     background-color: var(--light-grey-bg);
+// }
+
+// @media (max-width:992px) {
+//     .main_content{
+//         padding-top: 100px;
+//     }   
+// }
+// @media (max-width:551px) {
+//     .main_content{
+//         padding-top: 60px !important;
+//     }   
+//     .bredcrumb{
+//         padding-left: 33px !important;
+//     }
+// }
+
+// @media (max-width:575px) {
+//     .track-stepper {
+//         width: 100%;
+//     }
+
+//     .track-Btn {
+//         margin-top: 10px !important;
+//     }
+// }
+
+@media (max-width:738px) {
+    .manage-order-Btn-mobile {
+        display: flex !important;
+    }
+
+    .manage-order-Btn {
+        display: none !important;
+    }
+
+    // .bredcrumb {
+    //     margin-top: 20px !important;
+    // }
+
+    // .createOrderContainer {
+    //     background-color: var(--white) !important;
+    // }
+}
+
+
+
+// @media (max-width:400px) {
+//    .track-timeline {
+//     display: flex;
+//     width: 160%;
+//    }
+
+//    .track-box {
+//     position: relative;
+//     right: 160px;
+//    } 
+
+//    .trackorder-text {
+//     font-size: 1.9rem !important;
+//     margin-top: 20px !important;
+//    }
+// }
+
+
+
+// // ==================================
+// .double-circle {
+//   display: inline-block;
+//   width: 20px;
+//   height: 20px;
+//   border-radius: 50%;
+//   border: 2px solid #b52735;
+//   position: relative;
+// }
+
+// .double-circle::after {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     width: 12px;
+//     height: 12px;
+//     border-radius: 50%;
+//     background-color: #b52735;
+//     top: 50% !important;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+
+// .double-circle::before {
+//   top: 30%;
+// }
+
+// .double-circle::after {
+//   top: 70%;
+// }
+
+.ant-steps-item-finish .ant-steps-item-tail::after{
+    width: 3px !important;
+    background-color: #b52735 !important;
+}
+.ant-steps-item-title{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.ant-steps-item-subtitle{
+    margin-inline-start: 0px !important;
+}
